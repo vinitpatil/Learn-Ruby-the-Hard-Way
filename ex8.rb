@@ -9,7 +9,7 @@ puts formatter %[
      "I had this thing.",
      "That you could type up right.",
      "But it didn't sing.",
-     "So I said goodnight."
+     "So I said goodbye."
      ]
 
  puts "%s, %s, %s, %s" %[1,2,3,4]    
