@@ -1,4 +1,4 @@
-cars = 200
+cars = 140
 space_in_a_car = 4.0
 drivers = 30
 passengers = 90
@@ -10,6 +10,7 @@ average_passenger_per_car = passengers / cars_driven
 puts "There are #{cars} priuses available."
 puts "There are only #{drivers} race car drivers available."
 puts "We can transport #{carpool_capacity} people today."
+puts "There will be #{car_not_driven} empty priuses today."
 puts "We have #{passengers} passengers to carpool today."
 puts "We need about #{average_passenger_per_car} in each car."
 
