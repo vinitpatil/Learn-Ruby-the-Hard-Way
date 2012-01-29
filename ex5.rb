@@ -1,8 +1,8 @@
-name = 'Zed A. Shaw'
-age = 35 #not a lie
+name = 'Vinit Patil'
+age = 78 #not a lie
 height = 74.00 #inches
 weight = 180.0000 #lbs
-eyes = 'Blue'
+eyes = 'Black'
 teeth = 'White'
 hair = 'Brown'
 dick = 'Small'
@@ -12,7 +12,7 @@ weight_in_kilos=weight*0.4535
 #used another form of character format with #{}
 puts "Let's talk about #{name}." 
 #changed %d to %s
-puts "He's %s inches tall." % height
+puts "He's %d inches tall." %[height]
 #tried the centimetres conversion formula 
 puts "That means he's %s centimetres tall." %height_in_cm
 puts "He's %d pounds heavy." % weight
